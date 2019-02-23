@@ -1,0 +1,49 @@
+#navbar {
+	background-color: #0000d6;
+	opacity: 0.9;
+}
+.nav-wrapper {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.container {
+	margin-top: 10%;
+}
+.container .row div h2 {
+	color: #1a237e;
+}
+#buttons {
+	width: 50%;
+	height: 60px;
+	margin: auto;
+	margin-top: 15px;
+}
+#buttons #btn-add {
+	float: left; 
+	margin-left: 24%;
+}
+
+#buttons #btn-view {
+	float: right; 
+	margin-right: 24%;
+}
+
+.footer {
+  	position:absolute;
+    bottom:0;
+    width:100%;
+}
+.footer .container {
+	text-align: center;
+}
+.footer .container #rodapetext {
+	color: #212121;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	.container .row div h2 {
+		font-size: 26px;
+		color: #1a237e;
+	}
+}
